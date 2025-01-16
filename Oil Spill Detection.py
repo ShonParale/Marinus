@@ -17,7 +17,7 @@ def resize_image(image, max_width, max_height):
     return resized_image
 
 # Load the image
-image = cv2.imread('SAR 7.jpg')
+image = cv2.imread('SAR_Image.jpg')
 
 # Define a broad color range from black to dark gray (in BGR format)
 lower_bound = np.array([0, 0, 0], dtype="uint8")
